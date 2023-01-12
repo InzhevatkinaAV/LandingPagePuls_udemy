@@ -1,0 +1,56 @@
+.advantages {
+    display: block;
+    min-height: 470px;
+    background: #F6F6F6;
+    padding: 70px 0 64px 0;
+    h2 {
+        font-weight: 700;
+        font-size: 30px;
+        color: #0D0D0D;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &_icons {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        .advantages_icon {
+            width: 277px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 30px;
+            }
+            .advantage_subheader {
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .advantage_description {
+                font-size: 14px;
+                font-weight: 300;
+                text-align: center;
+            }
+            a {
+                color: #ff0000;
+                text-transform: uppercase;
+                text-decoration: underline;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            &_animated {
+                animation-name: heartbeat;
+                animation-duration: 1.5s;
+                animation-timing-function: ease;
+                animation-iteration-count: infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
+            }
+            
+        }
+    }
+}

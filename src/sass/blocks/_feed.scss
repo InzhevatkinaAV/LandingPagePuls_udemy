@@ -1,0 +1,38 @@
+.feed h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #0D0D0D;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.feed {
+    padding-bottom: 70px;
+    &__item {
+        display: flex;
+        padding-top: 60px;
+        justify-content: center;
+        &-img {
+            width: 169px;
+            height: 169px;
+            margin-right: 60px;
+        }
+        &-subtitle {
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &-count {
+            color: #646464;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        &-description {
+            color: #0d0d0d;
+            width: 676px;
+            font-size: 16px;
+            font-weight: 300;
+            margin-top: 10px;
+        }
+    }
+}

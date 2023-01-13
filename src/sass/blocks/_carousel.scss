@@ -21,5 +21,26 @@
         right: -66px;
         left: auto;
     }
+
+    .slick-dots {
+        text-align: center;
+        display: flex; // поставить кнопки в ряд
+        justify-content: center; // выровнять по центру
+        list-style: none; // убираем черные маркеры
+    }
+    
+    .slick-dots button {
+        color: rgba($color: #111111, $alpha: 0);
+        background: #dadada;
+        border: none;
+        border-radius: 50%;
+        height: 15px; 
+        width: 15px;
+        margin: 10px;
+        outline: none;
+    }
+    .slick-dots li[class="slick-active"] button {
+        background: $main-color;
+    }
      
 }

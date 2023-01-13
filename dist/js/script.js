@@ -8,9 +8,10 @@ $(document).ready(function(){
                 breakpoint: 992,
                 settings: {
                     dots: true,
+                    dotsClass: 'slick-dots',
                     arrows: false,
                 }
-            }
+            }  
         ]
       });
 

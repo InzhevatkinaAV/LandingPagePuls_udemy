@@ -1,5 +1,12 @@
 .catalog {
     padding-bottom: 80px;
+    h2 {
+        font-weight: 700;
+        font-size: 30px;
+        color: #0D0D0D;
+        text-align: center;
+        text-transform: uppercase;
+    }
     &__tabs {
         margin-top: 70px;
         list-style-type: none;
